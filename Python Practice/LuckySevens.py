@@ -1,3 +1,5 @@
+# LUCKY SEVENS
+
 import random
 
 name = input('Hi, welcome to the game of Lucky Seven! What’syour name?')

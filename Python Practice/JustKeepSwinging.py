@@ -1,9 +1,15 @@
 #JUST KEEP SWINGING!
+'''
+Post a Python program that contains a while loop. The number of times the
+loop iterates should depend upon input supplied by the user. Your program
+should display some output each time the loop executes. Include comments in
+your program that describe what the program does.
+'''
 import random
 
 playAgain = "y"
 while playAgain == "y":
-    """
+
     print("You are in a dungeon.")
     input("Press ENTER to continue")
     print("You are running for your life after losing the other members of your party to an ambush.")
@@ -17,7 +23,6 @@ while playAgain == "y":
     print("You grit your teeth, firm your stance, and remember three words...")
     input("Press ENTER to continue")
     print("JUST. KEEP. SWINGING.")
-    """
 
     health = 74
 
@@ -39,10 +44,9 @@ while playAgain == "y":
         health = health - damage
         print(numberOfEnemies, "enemies remaining")
 
-        
+
     if (numberOfEnemies > 0):
         print("You take your final swing, and the", numberOfEnemies, "enemies before you converge")
         print("on your lifeless body")
-        
-    playAgain = input("Pla[y] Again?: ")
 
+    playAgain = input("Pla[y] Again?: ")

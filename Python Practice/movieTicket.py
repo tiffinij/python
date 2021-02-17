@@ -1,4 +1,8 @@
-
+'''
+Write a Python program that computes the price of a movie ticket depending on
+if the person is seeing a 2D or 3D movie and if they are a child, and adult, or
+a senior citizen.
+'''
 age = eval(input("Please enter your age: "))
 
 if(age < 13):
