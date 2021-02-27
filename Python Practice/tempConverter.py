@@ -41,7 +41,7 @@ for x in temps:
         h += 1
     elif (x < 75 and x > 55):
         w += 1
-    elif x < 55:
+    elif x <= 55:
         c += 1
 
 print(h, 'days were HOT')
