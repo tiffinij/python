@@ -25,6 +25,14 @@ def find_a(input):
         input = input[:repl_a] + char + input[repl_a + 1:]
     return input
 
+def find_s(input):
+    while 's' in input:
+        char = '5'
+        repl_s = input.find('s')
+        input = input[:repl_s] + char + input[repl_s + 1:]
+    return input
+
+
 c = 0
 entries2 = []
 while c < len(entries):
@@ -32,6 +40,9 @@ while c < len(entries):
         y = entries.index(x) #store the position of the string to replace in the array
         while 'a' in x:
             x = find_a(x)
+        entries[y] = x
+        while 's' in x:
+            x = find_s(x)
         entries[y] = x
     c += 1 #progresses the while loop through the array of strings entered by the user
 print(entries[:-1])
