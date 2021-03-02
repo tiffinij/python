@@ -5,7 +5,7 @@ Welcome to my Python Practice Respository!
 
 Here is a collection of many programs I have been created along my journey learning this language. Some programs are games, others perform a simple task or function. Please feel free to review the code.
 
-Below is a list of projects by name, and a brief desription of how the program functions:
+#Below is a list of projects by name, and a brief desription of how the program functions:
 
 Coin_Con
 
