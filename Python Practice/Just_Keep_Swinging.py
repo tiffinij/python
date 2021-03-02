@@ -1,5 +1,6 @@
-#JUST KEEP SWINGING!
+#Program Title: JUST KEEP SWINGING!
 '''
+PORGRAM REQUIREMENTS
 Post a Python program that contains a while loop. The number of times the
 loop iterates should depend upon input supplied by the user. Your program
 should display some output each time the loop executes. Include comments in
