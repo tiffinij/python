@@ -1,4 +1,6 @@
+#Program Title: Password_Crush
 '''
+PROGRAM REQUIREMENTS
 The fifth assignment involves writing a Python program to determine
 whether a password meets all the requirements for a secure password.
 Your program should prompt the user for the candidate password and
@@ -50,7 +52,7 @@ pound = '#'
 if pound == password[0] or pound == password[-1]:# checks if the # symbol is within the first character with [0] and last character with [-1]
     print("Not vaild, password cannot contain a `#` in the first or last position")
 else:
-    print("Vaild, password does not contain a `#` in the first or last position")    
+    print("Vaild, password does not contain a `#` in the first or last position")
 
 test = password.find("umgc") #checks for umgc within the password
 
@@ -58,4 +60,3 @@ if test != -1:
     print('Not valid, please remove `umgc` from your password.')
 else:
     print('Valid, your pswd does not contain `umgc`')
-
