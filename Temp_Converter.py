@@ -1,4 +1,6 @@
+#Program Title: Temp Converter
 '''
+PROGRAM REQUIRMENTS
 The sixth assignment involves writing a Python program to read in the
 temperatures, as user input, for ten consecutive days in Celsius and
 store them into an array. The entire array should then be displayed.
@@ -13,7 +15,7 @@ Cool - <55
 
 Warm - 55 to 74, inclusive
 
-Hot - >75 
+Hot - >75
 '''
 print('Please enter the temperatures for the days below.')
 temps = []
@@ -47,4 +49,3 @@ for x in temps:
 print(h, 'days were HOT')
 print(w, 'days were WARM')
 print(c, 'days were COLD')
-        

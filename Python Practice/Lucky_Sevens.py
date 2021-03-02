@@ -1,4 +1,4 @@
-# LUCKY SEVENS
+
 
 import random
 

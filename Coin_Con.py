@@ -1,4 +1,6 @@
+#Program Title: Coin Con
 '''
+PROGRAM REQUIRMENTS
 Program Name: COIN CON
 a Python program that accepts at least two values as input, performs some
 computation and displays at least one value as the result. The computation

@@ -1,5 +1,6 @@
+#Program Title: Flooring Calculator
 '''
-FlOORING CALCULATOR
+PROGRAM REQUIRMENTS
 a Python program that accepts at least three values as input, performs some
 computation and displays at least two values as the result. The program must
 include an if statement that performs different computations based on the value
