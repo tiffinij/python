@@ -28,3 +28,5 @@ Flooring_Calculator
 Movie_Ticket
 
 Temp_Converter
+
+BMI_Calculator
